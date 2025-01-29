@@ -16,11 +16,11 @@ button[type="submit"]:hover {
 }
 
 button[type="button"].btn-primary:disabled {
-    background-color: #3AAFA9; /* Same background color */
-    border-color: #3AAFA9; /* Same border color */
-    color: #FEFFFF; /* Same text color */
-    opacity: 1; /* Remove default disabled opacity */
-    cursor: not-allowed; /* Show the "not-allowed" cursor */
+    background-color: #3AAFA9;
+    border-color: #3AAFA9;
+    color: #FEFFFF;
+    opacity: 1;
+    cursor: not-allowed; 
 }
 
 /* Footer */

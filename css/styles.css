@@ -20,24 +20,24 @@ header {
     font-family: Tahoma, sans-serif;
     position: sticky; /* Make the header sticky */
     top: 0; /* Stick to the top of the page */
-    z-index: 1000; /* Ensure the header stays above other content */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for better visibility */
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 header p.lead {
     font-weight: normal !important;
-    font-style: normal !important; /* Just to ensure it's not italicized */
+    font-style: normal !important; 
 }
 
 header .container {
-    display: flex; /* Use flexbox to arrange items */
-    align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Align items to left and right edges */
-    position: relative; /* Set position to relative for absolute centering */
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    position: relative; 
 }
 
 header img {
-    margin-right: 15px; /* Right margin for logo spacing */
+    margin-right: 15px; 
 }
 
 header h1 {
@@ -81,7 +81,7 @@ footer {
 /* Main Content */
 main {
     margin: 20px;
-    background-color: #F8FFFD;  /* Changed from #FEFFFF to a light gray */
+    background-color: #F8FFFD;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -116,10 +116,10 @@ main {
 }
 
 .card.shadow-sm:hover {
-    transform: scale(1.05); /* Slightly enlarge the card */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Add a stronger shadow */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
-    z-index: 10; /* Bring the hovered card to the top */
+    transform: scale(1.05); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    z-index: 10; 
 }
 
 /* Button Styles for .btn-primary */
@@ -132,7 +132,7 @@ button.btn-primary {
     font-weight: bold;
     border-radius: 5px;
     text-align: center;
-    text-decoration: none; /* Remove underline for links */
+    text-decoration: none;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
